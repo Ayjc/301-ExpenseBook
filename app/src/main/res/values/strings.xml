@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">junchen5_ExpBook</string>
+    <string name="comment_up_to_20_characters">Comment (up to 20 characters)</string>
+    <string name="monthly_charge_cad">Monthly Charge (CAD)</string>
+    <string name="month_started_yyyy_mm_format">Month Started (yyyy-mm format)</string>
+    <string name="name_up_to_15_characters">Name (up to 15 characters)</string>
+    <string name="name">Name</string>
+    <string name="month_started">Month Started</string>
+    <string name="monthly_charged">Monthly charged</string>
+    <string name="comment">Comment</string>
+    <string name="are_you_sure_you_want_to_delete_this_expense_information">Are you sure you want to delete this Expense information?</string>
+    <string name="total_monthly_charge_0_0">Total Monthly Charge:\n $0.0</string>
+</resources>

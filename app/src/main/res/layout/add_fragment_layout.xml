@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_up_to_15_characters"
+        android:ems="10"
+        android:id="@+id/person_name_add_text"
+        android:inputType="textPersonName"
+        android:maxLength="15"
+        android:maxLines="1">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/month_started_yyyy_mm_format"
+        android:id="@+id/month_start_add_text"
+        android:inputType="numberDecimal"
+        android:maxLength="7"
+        android:maxLines="1">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/monthly_charge_cad"
+        android:id="@+id/monthly_charge_add_text"
+        android:inputType="numberDecimal"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:digits="0123456789.">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/comment_up_to_20_characters"
+        android:id="@+id/comment_add_text"
+        android:inputType="text"
+        android:maxLength="20"
+        android:maxLines="1">
+
+    </EditText>
+</LinearLayout>
